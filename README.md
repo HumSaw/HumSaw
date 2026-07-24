@@ -1,4 +1,4 @@
-<img src="assets/banner.png" alt="" width="100%" />
+<img src="assets/banner-v2.png" alt="" width="100%" />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:0d1117,45:2d2b55,100:bd93f9&section=header&reversal=true" width="100%" alt="" />
 
