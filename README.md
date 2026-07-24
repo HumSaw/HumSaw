@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=BD93F9&center=true&vCenter=true&width=600&lines=%3E+whoami;HumSaw+%E2%80%94+engineer+of+simulations;probabilistic+game+engines;self-learning+AI+%7C+desktop+tools;TypeScript+%E2%80%A2+Next.js+%E2%80%A2+Electron" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&background=0d1117&weight=600&size=24&pause=1000&color=BD93F9&center=true&vCenter=true&width=600&lines=%3E+whoami;HumSaw+%E2%80%94+engineer+of+simulations;probabilistic+game+engines;self-learning+AI+%7C+desktop+tools;TypeScript+%E2%80%A2+Next.js+%E2%80%A2+Electron" alt="Typing intro" />
 
 <br/><br/>
 
@@ -73,16 +73,16 @@ A kingdom-building strategy game with procedurally generated enemies, running en
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=HumSaw&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=bd93f9&icon_color=7dcfff&text_color=c0caf5&rank_icon=github" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HumSaw&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=bd93f9&text_color=c0caf5" alt="Top languages" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=HumSaw&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=bd93f9&icon_color=7dcfff&text_color=c0caf5&rank_icon=github" alt="GitHub stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HumSaw&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=bd93f9&text_color=c0caf5" alt="Top languages" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=HumSaw&theme=tokyonight&hide_border=true&background=00000000&ring=bd93f9&fire=ff79c6&currStreakLabel=7dcfff" alt="Streak" />
+<img src="https://streak-stats.demolab.com?user=HumSaw&theme=tokyonight&hide_border=true&background=0d1117&ring=bd93f9&fire=ff79c6&currStreakLabel=7dcfff" alt="Streak" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=HumSaw&theme=tokyo-night&hide_border=true&bg_color=00000000&color=c0caf5&line=bd93f9&point=7dcfff&area=true&area_color=2d2b55" width="100%" alt="Activity graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=HumSaw&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=c0caf5&line=bd93f9&point=7dcfff&area=true&area_color=2d2b55" width="100%" alt="Activity graph" />
 
 </div>
 
