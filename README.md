@@ -1,10 +1,16 @@
 # HumSaw
 
-I build desktop tools, simulation engines, procedural systems, and focused web applications.
+I build developer tools, desktop software, simulation engines, procedural systems, and focused web applications.
 
-My strongest work sits where product engineering meets explicit models: native OS integration, constrained search, deterministic simulation, self-learning agents, procedural generation, and offline-first software. I primarily use TypeScript, Next.js, React, Electron, Node.js, and MAXScript.
+My strongest work sits where product engineering meets explicit models: developer tooling, native OS integration, constrained search, deterministic simulation, self-learning agents, procedural generation, and offline-first software. I primarily use TypeScript, Next.js, React, Electron, Node.js, and MAXScript.
 
 ## Selected work
+
+### [ctxbudget](https://github.com/HumSaw/ctxbudget)
+
+A CLI that shows how much fixed context a coding-agent setup consumes before the first prompt. It scans instructions, rules, skills and agent config for Claude Code, Codex, Cursor, Copilot and Gemini, with optional MCP tool-schema measurement and CI budget checks.
+
+TypeScript · CLI · MCP · developer tooling
 
 ### [YT Live Wallpaper](https://github.com/HumSaw/yt-live-wallpaper)
 
