@@ -1,57 +1,37 @@
 # HumSaw
 
-I build developer tools, desktop software, simulation engines, procedural systems, and focused web applications.
+I build inspectable developer tools and deterministic software.
 
-My strongest work sits where product engineering meets explicit models: developer tooling, native OS integration, constrained search, deterministic simulation, self-learning agents, procedural generation, and offline-first software. I primarily use TypeScript, Next.js, React, Electron, Node.js, and MAXScript.
+My current focus is the hidden configuration around coding agents: what enters the context window, which instructions apply, and what can break before CI. The tools below are local-first, automation-friendly, and explicit about their limits.
 
-## Selected work
+## Developer tools
 
-### [ctxbudget](https://github.com/HumSaw/ctxbudget)
+| Project | What it answers | Proof |
+| --- | --- | --- |
+| **[ctxbudget](https://github.com/HumSaw/ctxbudget)** | How much context does the agent configuration consume before the first prompt? | TypeScript CLI · five coding agents · CI budget gate |
+| **[RuleTrace](https://github.com/HumSaw/ruletrace)** | Which AI coding instructions apply, in what order, and where do they conflict? | Zero-dependency CLI · local-only · structured output |
+| **[dev-checkup](https://github.com/HumSaw/dev-checkup)** | Which common repository failures can be caught with one command? | Ten checks · zero dependencies · stable JSON output |
 
-A CLI that shows how much fixed context a coding-agent setup consumes before the first prompt. It scans instructions, rules, skills and agent config for Claude Code, Codex, Cursor, Copilot and Gemini, with optional MCP tool-schema measurement and CI budget checks.
+```bash
+npx ctxbudget
+npx ruletrace .
+npm install -g github:HumSaw/dev-checkup && dev-checkup all
+```
 
-TypeScript · CLI · MCP · developer tooling
+Each repository includes tests, CI, an MIT license, a security policy, and documented limitations. Registry install commands are shown only where the package is actually published.
 
-### [YT Live Wallpaper](https://github.com/HumSaw/yt-live-wallpaper)
+## Selected systems work
 
-A cross-platform Electron application that turns YouTube videos or local media into desktop wallpapers. It supports multi-monitor setups, crossfades, playlists, automatic pausing during fullscreen applications, and OS-specific desktop integration on Windows, macOS, and Linux.
+- **[Admiral](https://github.com/HumSaw/battleship-math-model)** — constrained fleet inference and bounded expectimax in a browser, with a [live demo](https://admiral-weld.vercel.app).
+- **[FurnGen](https://github.com/HumSaw/furngen)** — seeded procedural furniture generation and validation for Autodesk 3ds Max.
+- **[Atelier](https://github.com/HumSaw/atelier-crm)** — an offline-first desktop CRM backed by local SQLite.
 
-Electron · Node.js · native OS integration
+## Engineering principles
 
-### [Admiral — Battleship Mathematical Scoring Model](https://github.com/HumSaw/battleship-math-model)
-
-A browser-based Battleship advisor built around constrained fleet enumeration, weighted Sequential Importance Sampling, two-ply lookahead, and bounded expectimax. The engine runs in a Web Worker; the interface supports 10 languages and RTL layouts.
-
-[Live demo](https://admiral-weld.vercel.app) · TypeScript · Next.js · Vitest
-
-### [FurnGen](https://github.com/HumSaw/furngen)
-
-A seeded procedural furniture generator for Autodesk 3ds Max. It creates furniture and coordinated room sets with reproducible geometry, renderer-aware materials, and built-in model validation.
-
-MAXScript · procedural geometry · static analysis
-
-### [Atelier](https://github.com/HumSaw/atelier-crm)
-
-An offline-first desktop CRM for interior designers and 3D artists. Contacts, projects, reminders, templates, and financial records stay in a local SQLite database.
-
-Electron · Next.js · SQLite · Drizzle
-
-### [Chronicle of Erdalion](https://github.com/HumSaw/erdalion-simulation)
-
-An evolutionary fantasy-world simulation in which ten factions maintain independent Q-learning policies and adapt through war, diplomacy, trade, raids, and dynastic marriages.
-
-TypeScript · Q-learning · emergent simulation
-
-### [Evervale Kingdom](https://github.com/HumSaw/evervale-kingdom)
-
-A browser strategy game with deterministic battles, seeded enemy generation, six-resource economy, build and training queues, and versioned persistent saves.
-
-TypeScript · Next.js · Zustand
-
-## Engineering priorities
-
-- deterministic, inspectable behavior instead of opaque heuristics
+- deterministic, inspectable behavior over opaque heuristics
+- useful defaults without accounts, telemetry, or subscriptions
 - domain logic separated from UI and framework code
-- reproducible tests and simulations
-- honest documentation with explicit limits and trade-offs
-- software that remains useful without an account or subscription
+- reproducible tests and honest documentation
+- explicit security boundaries and trade-offs
+
+The best way to reach me about a project is through its GitHub issues.
