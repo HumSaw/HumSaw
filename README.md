@@ -1,10 +1,16 @@
 # HumSaw
 
-I build simulation engines, procedural systems, and focused desktop tools.
+I build desktop tools, simulation engines, procedural systems, and focused web applications.
 
-My strongest work sits where product engineering meets explicit models: constrained search, deterministic simulation, self-learning agents, procedural generation, and offline-first applications. I primarily use TypeScript, Next.js, React, Electron, and Node.js.
+My strongest work sits where product engineering meets explicit models: native OS integration, constrained search, deterministic simulation, self-learning agents, procedural generation, and offline-first software. I primarily use TypeScript, Next.js, React, Electron, Node.js, and MAXScript.
 
 ## Selected work
+
+### [YT Live Wallpaper](https://github.com/HumSaw/yt-live-wallpaper)
+
+A cross-platform Electron application that turns YouTube videos or local media into desktop wallpapers. It supports multi-monitor setups, crossfades, playlists, automatic pausing during fullscreen applications, and OS-specific desktop integration on Windows, macOS, and Linux.
+
+Electron · Node.js · native OS integration
 
 ### [Admiral — Battleship Mathematical Scoring Model](https://github.com/HumSaw/battleship-math-model)
 
@@ -12,17 +18,17 @@ A browser-based Battleship advisor built around constrained fleet enumeration, w
 
 [Live demo](https://admiral-weld.vercel.app) · TypeScript · Next.js · Vitest
 
-### [YT Live Wallpaper](https://github.com/HumSaw/yt-live-wallpaper)
-
-A cross-platform Electron application that turns YouTube videos or local media into desktop wallpapers. It supports multi-monitor setups, crossfades, playlists, and automatic pausing during fullscreen applications.
-
-Electron · Node.js · native OS integration
-
 ### [FurnGen](https://github.com/HumSaw/furngen)
 
 A seeded procedural furniture generator for Autodesk 3ds Max. It creates furniture and coordinated room sets with reproducible geometry, renderer-aware materials, and built-in model validation.
 
 MAXScript · procedural geometry · static analysis
+
+### [Atelier](https://github.com/HumSaw/atelier-crm)
+
+An offline-first desktop CRM for interior designers and 3D artists. Contacts, projects, reminders, templates, and financial records stay in a local SQLite database.
+
+Electron · Next.js · SQLite · Drizzle
 
 ### [Chronicle of Erdalion](https://github.com/HumSaw/erdalion-simulation)
 
@@ -35,12 +41,6 @@ TypeScript · Q-learning · emergent simulation
 A browser strategy game with deterministic battles, seeded enemy generation, six-resource economy, build and training queues, and versioned persistent saves.
 
 TypeScript · Next.js · Zustand
-
-### [Atelier](https://github.com/HumSaw/atelier-crm)
-
-An offline-first desktop CRM for interior designers and 3D artists. Contacts, projects, reminders, templates, and financial records stay in a local SQLite database.
-
-Electron · Next.js · SQLite · Drizzle
 
 ## Engineering priorities
 
